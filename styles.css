@@ -37,7 +37,7 @@ header #frase {
 }
 
 main p {
-  font-size: 1em;
+  font-size: 1.2em;
   margin-bottom: 15px;
   text-align: center;
   color: #eaeaea;
@@ -72,3 +72,4 @@ img:hover{
     transform: scale(0.98);
     box-shadow: 0 0 10px #e0e0e0;
 }
+
