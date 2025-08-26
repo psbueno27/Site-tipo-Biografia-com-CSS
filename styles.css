@@ -76,14 +76,11 @@ img:hover{
     text-align: center;
     font-size: auto;
 }
-.url {
-    color:#c31111;
+a[target="_blank"] {
+    color:red;
     text-decoration: underline;
 }
-.url:hover {
-    color:#fff;
-    text-decoration:none;
-}
+
 
 
 
