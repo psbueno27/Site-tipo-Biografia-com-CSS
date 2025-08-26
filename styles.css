@@ -73,10 +73,17 @@ img:hover{
     box-shadow: 0 0 10px #e0e0e0;
 }
 .tabela { 
-    border-color: gold;
     text-align: center;
     font-size: auto;
 }
+.url {
+    color:red;
+    text-decoration: underline;
+}
+.url:hover {
+    color:black;
+    text-decoration:none;
+
 
 
 
