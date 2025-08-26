@@ -77,13 +77,14 @@ img:hover{
     font-size: auto;
 }
 .url {
-    color:red;
+    color:#c31111;
     text-decoration: underline;
 }
 .url:hover {
-    color:black;
+    color:#fff;
     text-decoration:none;
 }
+
 
 
 
