@@ -1,0 +1,91 @@
+/* Reset para tirar margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Daniel pode escolher as fontes, só coloquei  de exemplo*/
+    background: linear-gradient(180deg, #5d1b1b, #c31111, #d74518, #d79118, #d74518, #c31111, #5d1b1b);
+    color: #000000;
+}
+
+/* Cabeçalho */
+header{
+    color: #fff;
+    background: linear-gradient(180deg, #000000);
+    padding: 5px;
+    text-align: center;
+    border-bottom: none;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #fff;
+  text-shadow: 2px 2px 5px black;
+  letter-spacing: 2px;
+}
+
+/* "Eu me tornei a morte, a destruidora de mundos" */
+header #frase {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: auto;
+    color: #c31111;
+    justify-self: unset;
+}
+
+main p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #eaeaea;
+  text-shadow: 1px 1px 3px black;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimax(220px, 1fr));
+    justify-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: auto;
+    padding: auto;
+}
+
+img {
+  background: #0a0a0a;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+img:hover{
+    transform: scale(0.98);
+    box-shadow: 0 0 10px #e0e0e0;
+}
+.tabela { 
+    text-align: center;
+    font-size: auto;
+    border-color: blue;
+    border-style: groove;
+}
+.url:link, .url:active, .url:visited {
+    color:black;
+    text-decoration: underline;
+}
+.url:hover {
+    color: goldenrod;
+    text-decoration: none;
+}
+.formu {
+    font-family: fantasy;
+}
