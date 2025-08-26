@@ -72,6 +72,12 @@ img:hover{
     transform: scale(0.98);
     box-shadow: 0 0 10px #e0e0e0;
 }
+.tabela { 
+    border-color: gold;
+    text-align: center;
+    font-size: auto;
+}
+
 
 
 
