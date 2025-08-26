@@ -90,7 +90,10 @@ img:hover{
     font-family: fantasy;
 }
 .legenda {
-    text-align:center;
-    font-size:auto;
+    text-align: center;
+    font-size: auto;
+    display: flex;
+    justify-content: center;
 }
+
 
