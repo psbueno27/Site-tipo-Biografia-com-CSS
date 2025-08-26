@@ -89,11 +89,12 @@ img:hover{
 .formu {
     font-family: fantasy;
 }
-.legenda {
+figcaption {
     text-align: center;
     font-size: auto;
     display: flex;
     justify-content: center;
 }
+
 
 
